@@ -1,0 +1,19 @@
+@media screen and (max-width:768px) {
+    .contact .cardContact2 h5{
+        font-size: 15px;
+    }
+    .contact .cardContact2 a{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:600px) {
+    .contact .contact1 label{
+        font-size: 16px;    
+    }
+    .contact .contact2 {
+       margin-top: 50px;
+    }
+    .contact .cardcontact{
+        margin-bottom: 20px;
+    }
+}

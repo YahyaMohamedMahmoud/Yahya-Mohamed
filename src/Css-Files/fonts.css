@@ -1,0 +1,36 @@
+@font-face {
+    font-family:Sora-Bold;
+    src: url("./../Fonts/Sora-Bold.ttf");
+}
+@font-face {
+    font-family:Sora-ExtraBold;
+    src: url("./../Fonts/Sora-ExtraBold.ttf");
+}
+@font-face {
+    font-family:Sora-Medium;
+    src: url("./../Fonts/Sora-Medium.ttf");
+}
+@font-face {
+    font-family:Sora-Regular;
+    src: url("./../Fonts/Sora-Regular.ttf");
+}
+@font-face {
+    font-family:Sora-SemiBold;
+    src: url("./../Fonts/Sora-SemiBold.ttf");
+}
+@font-face {
+    font-family:Sora-Thin;
+    src: url("./../Fonts/Sora-Thin.ttf");
+}
+@font-face {
+    font-family:Sora-Light;
+    src: url("./../Fonts/Sora-Light.ttf");
+}
+@font-face {
+    font-family:Sora-ExtraLight;
+    src: url("./../Fonts/Sora-ExtraLight.ttf");
+}
+@font-face {
+    font-family:RussoOne-Regular;
+    src: url("./../Fonts/RussoOne-Regular.ttf");
+}

@@ -1,0 +1,34 @@
+.mywork{
+    background-color: #0f0715;
+}
+.myworkText h2{
+   font-size: 45px; 
+}
+.myworkText .we{
+    width: 56%;
+    font-size: 18px;
+}
+.mywork .app .router .bttn2{
+    border-radius: 50px 0px 0px 50px;
+}
+.mywork .app .router .bttn3{
+    border-radius: 0px 50px 50px 0px;
+}
+.mywork .app .router .bttn{
+    padding: 13px 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+    transition: all .5s;
+}
+.mywork .app .router .active{
+    border-radius: 50px;
+    background: linear-gradient(260deg, #2a1454 0%, #8750f7 100%);;
+    transition: all .5s;
+}
+.mywork .cards .cardimg img{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #140c1c;
+}

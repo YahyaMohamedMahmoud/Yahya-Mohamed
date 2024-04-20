@@ -1,0 +1,36 @@
+.contact .myworkText .we{
+    width: 100%;
+}
+.contact .contact1 label{
+    font-size: 20px;    
+}
+.contact .contact1 .mail{
+    width: 100%;
+    background-color: black;
+    border: 1px solid #22272c;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+.contact .contact1 .mail:focus{
+   outline: none;
+   border: 1px solid #8750f7;
+}
+.contact .contact1 .send{
+    padding: 11px 50px;
+    color: white;
+    background: linear-gradient(to right, #8750f7 0%, #2a1454 100%, #8750f7 100%);
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+}
+.contact .cardcontact .awsome{
+    padding: 14px 17px;
+    background: linear-gradient(to right, #8750f7 0%, #2a1454 100%, #8750f7 100%);
+    border-radius: 50%;
+    font-size: 15px;
+}
+.contact .cardContact2 a{
+    color: white;
+    font-size: 17px;
+} 

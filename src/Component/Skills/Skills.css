@@ -1,0 +1,24 @@
+.skills .cardImg{
+    padding: 40px 25px;
+    background-color: #140c1c;
+    border-radius: 25px;
+    transition: all .5s;
+    border: 1px solid transparent;
+}
+.skills .cardImg:hover{
+   background-color: #2a1454; 
+   border: 1px solid #8750f7;
+}
+.skills .cardImg img{
+    max-width: 80px;
+    margin: auto;
+    filter: grayscale(90%);
+    transition: all .5s;
+}
+.skills .cardImg:hover img{
+    filter: grayscale(0);
+}
+.skills .cardImg h4{
+    font-size: 20px;
+    text-transform: capitalize;
+}
