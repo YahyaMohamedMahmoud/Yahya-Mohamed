@@ -24,7 +24,10 @@ export default function Contact() {
             </p>
                     </div>
                     <div className="contact1 mt-4" data-aos="fade-right" data-aos-duration="1000">
-                    <form action="#">
+                    <form action="https://formcarry.com/s/ndUYJ6M76IX"
+                    method='POST'
+                    encType='multipart/form-data'
+                    >
                         <label htmlFor="email" className='d-block py-2'>
                            Email 
                         </label>
