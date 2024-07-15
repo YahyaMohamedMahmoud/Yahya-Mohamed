@@ -8,6 +8,10 @@ import project4 from "../../img/raqamyat-web.png";
 import project5 from "../../img/Charity-web.png";
 import project6 from "../../img/Stvdy-web.png";
 import project7 from "../../img/capital-web.png";
+import project8 from '../../img/UMINO.png';
+import project9 from "../../img/wordpress.png";
+import project10 from "../../img/wordpress2.png";
+import project11 from "../../img/wordpress3.png";
 import AOS from 'aos';
 
 export default function MyWork() {
@@ -19,30 +23,42 @@ export default function MyWork() {
     const [click2 , setClick2] = useState(false);
     const [click3 , setClick3] = useState(false);
     const [click4 , setClick4] = useState(false);
+    const [click5 , setClick5] = useState(false);
 
     function change(){
         setClick(true)
         setClick2(false)
         setClick3(false)
         setClick4(false)
+        setClick5(false)
     }
     function change2(){
         setClick(false)
         setClick2(true)
         setClick3(false)
         setClick4(false)
+        setClick5(false)
     }
     function change3(){
         setClick(false)
         setClick2(false)
         setClick3(true)
         setClick4(false)
+        setClick5(false)
     }
     function change4(){
         setClick(false)
         setClick2(false)
         setClick3(false)
         setClick4(true)
+        setClick5(false)
+    }
+    function change5(){
+        setClick(false)
+        setClick2(false)
+        setClick3(false)
+        setClick4(false)
+        setClick5(true)
     }
 
   return (
@@ -72,6 +88,9 @@ export default function MyWork() {
                 <button className={`bttn bttn3 ${click4 ? "active" : "bttn bttn3"}`} onClick={change4}>
                     ui/ux
                 </button>
+                <button className={`bttn ${click5 ? "active" : "bttn"}`} onClick={change5}>
+                    WordPress
+                </button>
             </div>
         </div>
         <div className={`cards ${click ? "cards mt-4" : "d-none"}`} >
@@ -79,49 +98,77 @@ export default function MyWork() {
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
                         <a href="https://yahyamohamedmahmoud.github.io/Watches-Project/" target='_blank'>
-                            <img src={project1} alt="" />
+                            <img src={project1} alt="project" />
+                        </a>
+                    </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="cardimg mb-3">
+                        <a href="https://umino-clothes.vercel.app/" target='_blank'>
+                            <img src={project8} alt="project" />
                         </a>
                     </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
                         <a href="https://yahyamohamedmahmoud.github.io/unsen-Project/" target='_blank'>
-                            <img src={project2} alt="" />
+                            <img src={project2} alt="project" />
                         </a>
                     </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
                         <a href="https://github.com/YahyaMohamedMahmoud/Furniture-Project" target='_blank'>
-                            <img src={project3} alt="" />
+                            <img src={project3} alt="project" />
+                        </a>
+                    </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="cardimg mb-3">
+                        <a href="https://alrawafid-sa.com/" target='_blank'>
+                            <img src={project9} alt="project" />
+                        </a>
+                    </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="cardimg mb-3">
+                        <a href="https://advancewavetec.com/" target='_blank'>
+                            <img src={project10} alt="project" />
+                        </a>
+                    </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="cardimg mb-3">
+                        <a href="https://hakapetk.com/" target='_blank'>
+                            <img src={project11} alt="project" />
                         </a>
                     </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
                         <a href="https://yahyamohamedmahmoud.github.io/Raqamyat-Project/" target='_blank'>
-                            <img src={project4} alt="" />
+                            <img src={project4} alt="project" />
                         </a>
                     </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
                         <a href="https://yahyamohamedmahmoud.github.io/Charity-Project/" target='_blank'>
-                            <img src={project5} alt="" />
+                            <img src={project5} alt="project" />
                         </a>
                     </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
                         <a href="https://yahyamohamedmahmoud.github.io/Frontend-Test/" target='_blank'>
-                            <img src={project6} alt="" />
+                            <img src={project6} alt="project" />
                         </a>
                     </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
                         <a href="https://yahyamohamedmahmoud.github.io/Capital-shop-Project/" target='_blank'>
-                            <img src={project7} alt="" />
+                            <img src={project7} alt="project" />
                         </a>
                     </div>
                 </div>
@@ -129,10 +176,17 @@ export default function MyWork() {
         </div>
         <div className={`${click2 ? "cards mt-4" : "d-none"}`}>
         <div className="row">
+        <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="cardimg mb-3">
+                        <a href="https://umino-clothes.vercel.app/" target='_blank'>
+                            <img src={project8} alt="project" />
+                        </a>
+                    </div>
+                </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
                         <a href="https://github.com/YahyaMohamedMahmoud/Furniture-Project" target='_blank'>
-                            <img src={project3} alt="" />
+                            <img src={project3} alt="project" />
                         </a>
                     </div>
                 </div>
@@ -144,6 +198,13 @@ export default function MyWork() {
                     <div className="cardimg mb-3">
                         <a href="https://yahyamohamedmahmoud.github.io/Watches-Project/" target='_blank'>
                             <img src={project1} alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="cardimg mb-3">
+                        <a href="https://umino-clothes.vercel.app/" target='_blank'>
+                            <img src={project8} alt="project" />
                         </a>
                     </div>
                 </div>
@@ -194,6 +255,31 @@ export default function MyWork() {
                     </div>
                 </div>
             </div>
+        </div>
+        <div className={`${click5 ? "cards mt-4" : "d-none"}`}>
+        <div className="row">
+        <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="cardimg mb-3">
+                        <a href="https://alrawafid-sa.com/" target='_blank'>
+                            <img src={project9} alt="project" />
+                        </a>
+                    </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="cardimg mb-3">
+                        <a href="https://advancewavetec.com/" target='_blank'>
+                            <img src={project10} alt="project" />
+                        </a>
+                    </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="cardimg mb-3">
+                        <a href="https://hakapetk.com/" target='_blank'>
+                            <img src={project11} alt="project" />
+                        </a>
+                    </div>
+                </div>
+        </div>
         </div>
         </div>     
         </section>
