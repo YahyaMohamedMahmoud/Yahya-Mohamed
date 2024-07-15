@@ -118,7 +118,7 @@ export default function MyWork() {
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
-                        <a href="https://github.com/YahyaMohamedMahmoud/Furniture-Project" target='_blank'>
+                        <a href="https://furniture-project-six.vercel.app/" target='_blank'>
                             <img src={project3} alt="project" />
                         </a>
                     </div>
@@ -185,7 +185,7 @@ export default function MyWork() {
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
-                        <a href="https://github.com/YahyaMohamedMahmoud/Furniture-Project" target='_blank'>
+                        <a href="https://furniture-project-six.vercel.app/" target='_blank'>
                             <img src={project3} alt="project" />
                         </a>
                     </div>
@@ -217,7 +217,7 @@ export default function MyWork() {
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="cardimg mb-3">
-                        <a href="https://github.com/YahyaMohamedMahmoud/Furniture-Project" target='_blank'>
+                        <a href="https://furniture-project-six.vercel.app/" target='_blank'>
                             <img src={project3} alt="" />
                         </a>
                     </div>
