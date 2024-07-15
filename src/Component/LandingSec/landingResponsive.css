@@ -84,12 +84,15 @@
         margin-bottom: 30px;
     }
     .landing .landingText .link{
-        margin-left: 20px;
+        margin-left: 6px;
     }
     header .navbar-brand img{
         max-width: 140px;
     }
     .headerFixed{
         padding: 6px 0px !important;
+    }
+    .landing2 .socail{
+        text-align: center;
     }
 }

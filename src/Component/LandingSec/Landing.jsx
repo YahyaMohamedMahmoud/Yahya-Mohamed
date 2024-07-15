@@ -34,11 +34,11 @@ export default function Landing() {
                 </p>
                 <div className="socail mt-4" data-aos="fade-up" data-aos-duration="2000">
                     <a href={Cv} download="Yahya_CV" target='_blank'>
-                        <button className='download'>
+                        <button className='download me-xl-3 me-lg-3 me-md-3'>
                             download cv <i className="fa-solid fa-download ms-1"></i>
                         </button>
                     </a>
-                    <a href="https://github.com/YahyaMohamedMahmoud" className='link mx-3' target='_blank'>
+                    <a href="https://github.com/YahyaMohamedMahmoud" className='link me-3' target='_blank'>
                     <i className="fa-brands fa-github"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/yahia-mohamed-5282a7218" className='link me-3' target='_blank'>
