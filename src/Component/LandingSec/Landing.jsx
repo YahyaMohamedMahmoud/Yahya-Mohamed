@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import "./Landing.css";
 import "./landingResponsive.css";
-import Cv from "../../CV/yahia farid.pdf";
+import Cv from "../../CV/Yahia-Mohamed.pdf";
 import photo from "../../img/me.jpg";
 import AOS from 'aos';
 
@@ -33,7 +33,7 @@ export default function Landing() {
                 pages
                 </p>
                 <div className="socail mt-4" data-aos="fade-up" data-aos-duration="2000">
-                    <a href={Cv} download="Yahya_CV" target='_blank'>
+                    <a href={Cv} download="Yahia_CV" target='_blank'>
                         <button className='download me-xl-3 me-lg-3 me-md-3'>
                             download cv <i className="fa-solid fa-download ms-1"></i>
                         </button>
