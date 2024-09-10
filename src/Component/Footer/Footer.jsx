@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Footer.css";
 import "./FooterResponsive.css";
-import img1 from "../../img/yahya-high-resolution-logo-white-transparent.png";
+import img1 from "../../img/yahya-high-resolution-logo-white-transparent (2).png";
 
 export default function Footer() {
   return (
@@ -11,13 +11,13 @@ export default function Footer() {
             <div className="lastSec">
                 <div className="lastimg">
                     <a href="index.html">
-                    <img src={img1} alt=""/>
+                    <img src={img1} alt="logo"/>
                     </a>
                 </div>
             </div>
             <div className="lastText mt-4">
                 <div className="links">
-                    <a href="#myWord" className='me-4'>
+                    <a href="#myWord" className='me-4 ms-3'>
                         Works
                     </a>
                     <a href="#Skills" className='me-4'>

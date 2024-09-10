@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import "./Landing.css";
 import "./landingResponsive.css";
 import Cv from "../../CV/yahia farid.pdf";
-import photo from "../../img/ff.jpg";
+import photo from "../../img/me.jpg";
 import AOS from 'aos';
 
 export default function Landing() {

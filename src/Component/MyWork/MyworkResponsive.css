@@ -7,12 +7,15 @@
          font-size: 15px;
      }
      .mywork .app .router .bttn{
-        padding: 10px 25px;
-        font-size: 15px;
+        padding: 9px 15px;
+        font-size: 10px;
         border-radius: 50px;
     }
     .mywork .cards .cardimg img{
         padding: 10px;
         margin-bottom: 20px;
+    }
+    .mywork .cards .cardimg .projectDesc p{
+       font-size: 12px;
     }
 }

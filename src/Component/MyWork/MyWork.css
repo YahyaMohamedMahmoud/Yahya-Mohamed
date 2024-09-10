@@ -32,3 +32,12 @@
     border-radius: 10px;
     background-color: #140c1c;
 }
+.mywork .cards .cardimg .projectDesc{
+    padding: 0px 28px;
+}
+.mywork .cards .cardimg .projectDesc .projectHead{
+   font-size: 20px;
+}
+.mywork .cards .cardimg .projectDesc p{
+    color: white;
+}

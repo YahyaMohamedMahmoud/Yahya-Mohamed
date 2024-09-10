@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from "../../img/yahya-high-resolution-logo-white-transparent.png";
+import Logo from "../../img/yahya-high-resolution-logo-white-transparent (2).png";
 import "./Header.css";
 
 export default function Header() {
@@ -28,8 +28,8 @@ export default function Header() {
     <header className={`py-3 ${fixed ? "headerFixed" : "header py-3"}`}>
     <nav className="navbar navbar-expand-lg">
     <div className="container">
-    <a className="navbar-brand"  href="index.html">
-      <img src={Logo} alt="" />
+    <a className="navbar-brand"  href="/">
+      <img src={Logo} alt="logo" />
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
