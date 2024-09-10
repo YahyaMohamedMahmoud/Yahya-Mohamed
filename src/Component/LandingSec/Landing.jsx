@@ -22,7 +22,7 @@ export default function Landing() {
             <div className="col-xl-5 col-lg-6 col-md-7">
                 <div className="landingText">
                 <p className='who' data-aos="fade-right" data-aos-duration="2000">
-                I am Yahya
+                I am Yahya Mohamed
                 </p>
                 <h1 className='heading py-3' data-aos="fade-left" data-aos-duration="2000">
                 Front End Developer
