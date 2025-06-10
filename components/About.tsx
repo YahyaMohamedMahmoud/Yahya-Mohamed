@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { GradualSpacing } from "./ui/GradualSpacing";
-import { ShineBorder } from "./ui/ShineBorder";
+// import { ShineBorder } from "./ui/ShineBorder";
 import { aboutData } from "@/data";
 
 function About() {

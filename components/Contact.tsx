@@ -1,7 +1,7 @@
 "use client";
 import { GradualSpacing } from "./ui/GradualSpacing";
 import MagicButton from "./ui/MagicButton";
-import { ShineBorder } from "./ui/ShineBorder";
+// import { ShineBorder } from "./ui/ShineBorder";
 import Link from "next/link";
 
 function Contact() {
