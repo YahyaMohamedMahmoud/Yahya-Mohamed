@@ -1,39 +1,10 @@
 "use client";
 import { GradualSpacing } from "./ui/GradualSpacing";
 import MagicButton from "./ui/MagicButton";
-// import { z } from "zod";
-// import { useForm } from "react-hook-form";
-// import { zodResolver } from "@hookform/resolvers/zod";
-// import { contactSchema } from "@/data";
 import { ShineBorder } from "./ui/ShineBorder";
 import Link from "next/link";
 
 function Contact() {
-  // type ContactType = z.infer<typeof contactSchema>;
-  // const {
-  //   handleSubmit,
-  //   register,
-  //   getValues,
-  //   formState: { errors, isSubmitting },
-  // } = useForm<ContactType>({
-  //   resolver: zodResolver(contactSchema),
-  // });
-
-  // const handleContact = async () => {
-  //   try {
-  //     await fetch("api/send", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify(getValues()),
-  //     })
-  //       .then((res) => res.json())
-  //       .then((data) => console.log(data));
-  //   } catch (error) {
-  //     console.error("Error sending contact request:", error);
-  //   }
-  // };
 
   return (
     <div id="contact" className="container">
@@ -132,9 +103,9 @@ function Contact() {
             </div>
           </div>
         </div>
-        <ShineBorder
+        <div
           className="p-4  w-full max-w-[600px] mx-auto"
-          color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+          // color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
         >
         <form 
   action="https://formcarry.com/s/ndUYJ6M76IX"
@@ -172,7 +143,7 @@ function Contact() {
   />
 </form>
 
-        </ShineBorder>
+        </div>
       </div>
     </div>
   );

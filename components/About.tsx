@@ -8,12 +8,12 @@ function About() {
     <section id="about">
       <div className="flex flex-col items-center justify-center w-full py-20 container">
         <GradualSpacing text="About Me" />
-        <ShineBorder
+        <div
           className="relative w-full flex-col overflow-hidden rounded-lg border !bg-[#020617] md:shadow-xl p-5 sm:p-10"
-          color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
-          borderWidth={1}
-          duration={7}
-          
+          // color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+          // borderWidth={1}
+          // duration={7}
+
         >
           <div className="flex gap-x-10 gap-y-5 flex-col items-center md:items-start text-center md:text-start md:flex-row w-full font-cairo">
             <div className="rounded-sm overflow-hidden size-32 sm:!size-60">
@@ -50,7 +50,7 @@ function About() {
               </div>
             </div>
           </div>
-        </ShineBorder>
+        </div>
       </div>
     </section>
   );
