@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { GradualSpacing } from "./ui/GradualSpacing";
-// import { ShineBorder } from "./ui/ShineBorder";
+import { ShineBorder } from "./ui/ShineBorder";
 import { aboutData } from "@/data";
 
 function About() {
@@ -8,9 +8,11 @@ function About() {
     <section id="about">
       <div className="flex flex-col items-center justify-center w-full py-20 container">
         <GradualSpacing text="About Me" />
-        <div
+        <ShineBorder
           className="relative w-full flex-col overflow-hidden rounded-lg border !bg-[#020617] md:shadow-xl p-5 sm:p-10"
-
+          color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+          borderWidth={1}
+          duration={7}
         >
           <div className="flex gap-x-10 gap-y-5 flex-col items-center md:items-start text-center md:text-start md:flex-row w-full font-cairo">
             <div className="rounded-sm overflow-hidden size-32 sm:!size-60">
@@ -21,6 +23,7 @@ function About() {
                 height={400}
                 className="rounded-sm w-full object-cover"
                 priority
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
               />
             </div>
             <div className="!leading-relaxed text-sm md:text-lg flex-1 text-start">
@@ -47,7 +50,7 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
+        </ShineBorder>
       </div>
     </section>
   );

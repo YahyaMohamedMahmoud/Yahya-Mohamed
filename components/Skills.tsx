@@ -1,6 +1,6 @@
 import { skills } from "@/data";
 import { GradualSpacing } from "./ui/GradualSpacing";
-// import { BorderBeam } from "./ui/BorderBeam";
+import { BorderBeam } from "./ui/BorderBeam";
 
 function Skills() {
   return (
@@ -13,7 +13,7 @@ function Skills() {
               key={i}
               className="font-cairo bg-[#0E162B] min-w-[35vw] sm:min-w-52 flex-1 relative z-10 flex flex-col items-center justify-center p-5 rounded-sm h-28 text-center border border-transparent hover:border-[#1F2937] border-opacity-50 transition !duration-100"
             >
-              {/* <BorderBeam size={80} duration={7} delay={9} borderWidth={1}/> */}
+              <BorderBeam size={20} duration={7} delay={9} />
               <span className="absolute -top-8 !size-16 flex justify-center items-center text-[40px] p-2 rounded-full ">
                 {skill.icon}
               </span>

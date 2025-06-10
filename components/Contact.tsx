@@ -1,7 +1,7 @@
 "use client";
 import { GradualSpacing } from "./ui/GradualSpacing";
 import MagicButton from "./ui/MagicButton";
-// import { ShineBorder } from "./ui/ShineBorder";
+import { ShineBorder } from "./ui/ShineBorder";
 import Link from "next/link";
 
 function Contact() {
@@ -103,9 +103,11 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div
+        <ShineBorder
           className="p-4  w-full max-w-[600px] mx-auto"
-          // color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+          color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+          borderWidth={1}
+          
         >
         <form 
   action="https://formcarry.com/s/ndUYJ6M76IX"
@@ -143,7 +145,7 @@ function Contact() {
   />
 </form>
 
-        </div>
+        </ShineBorder>
       </div>
     </div>
   );
