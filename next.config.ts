@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  distDir: 'build',
   trailingSlash: true,
+  // بدون أي output أو distDir
 };
 
 export default nextConfig;
