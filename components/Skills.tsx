@@ -1,6 +1,6 @@
 import { skills } from "@/data";
 import { GradualSpacing } from "./ui/GradualSpacing";
-import { BorderBeam } from "./ui/BorderBeam";
+// import { BorderBeam } from "./ui/BorderBeam";
 
 function Skills() {
   return (
