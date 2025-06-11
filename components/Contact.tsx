@@ -106,7 +106,6 @@ function Contact() {
         <ShineBorder
           className="p-4  w-full max-w-[600px] mx-auto"
           color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
-          borderWidth={1}
           
         >
         <form 
@@ -123,7 +122,7 @@ function Contact() {
     name="email"
     id="email"
     placeholder="Email Address"
-    className="w-full bg-black border border-[#22272c] p-2.5 rounded-lg text-white focus:outline-none focus:border-[#8750f7]"
+    className="w-full bg-black border border-[#22272c] px-5 py-3 rounded-lg text-white focus:outline-none focus:border-[#8750f7]"
   />
 
   <label htmlFor="message" className="block py-3 text-lg">
@@ -135,7 +134,7 @@ function Contact() {
     cols={30}
     rows={10}
     placeholder="Message"
-    className="w-full bg-black border border-[#22272c] p-2.5 rounded-lg text-white focus:outline-none focus:border-[#8750f7]"
+    className="w-full bg-black border border-[#22272c] px-5 py-3  rounded-lg text-white focus:outline-none focus:border-[#8750f7]"
   />
 
   <MagicButton
