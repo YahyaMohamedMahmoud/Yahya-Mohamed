@@ -9,7 +9,7 @@ function About() {
       <div className="flex flex-col items-center justify-center w-full py-20 container">
         <GradualSpacing text="About Me" />
         <ShineBorder
-          className="relative w-full flex-col overflow-hidden rounded-lg border !bg-[#020617] md:shadow-xl p-5 sm:p-10"
+          className="relative w-full flex-col overflow-hidden rounded-[15px] border !bg-[#020617] md:shadow-xl p-[3.5px]"
           color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
         >
           

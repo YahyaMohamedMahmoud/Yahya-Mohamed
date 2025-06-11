@@ -104,7 +104,7 @@ function Contact() {
           </div>
         </div>
       <ShineBorder
-  className="relative z-0 p-4 w-full max-w-[600px] mx-auto overflow-hidden"
+  className="relative z-0 p-[3.5px] w-full max-w-[600px] mx-auto overflow-hidden rounded-[15px]"
   color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
 >
         <form 
