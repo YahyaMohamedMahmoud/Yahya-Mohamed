@@ -103,11 +103,10 @@ function Contact() {
             </div>
           </div>
         </div>
-        <ShineBorder
-          className="p-4  w-full max-w-[600px] mx-auto"
-          color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
-          
-        >
+      <ShineBorder
+  className="relative z-0 p-4 w-full max-w-[600px] mx-auto overflow-hidden"
+  color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+>
         <form 
   action="https://formcarry.com/s/ndUYJ6M76IX"
   method="POST"
