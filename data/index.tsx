@@ -61,6 +61,15 @@ export const projects = [
     link: "https://egypt-peace.org/",
   }
   ,  
+    {
+    id: 17,
+    title: "Clear Real Estate",
+    des: "Real estate website implemented from a Figma design using WordPress, Elementor Pro, and custom fields for flexible content management. Fully responsive with a professional and user-friendly interface.",
+    img: "/Clear-img.webp",
+    iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg", "/js.svg"],
+    link: "https://dev.rasans.com/clear/",
+  }
+  ,  
   {
     id: 2,
     title: "Umino Fashion Site",
