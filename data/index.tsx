@@ -75,8 +75,7 @@ des: "WordPress site for Outmark's parent company in Saudi Arabia. Built 3 custo
     img: "/Egypt-peace.webp",
     iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg", "/js.svg"],
     link: "https://egypt-peace.org/",
-  }
-  ,  
+  },  
   {
     id: 166,
     title: "Speed Package",
