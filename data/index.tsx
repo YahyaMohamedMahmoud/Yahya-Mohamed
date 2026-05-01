@@ -24,7 +24,7 @@ import {
 } from "react-icons/si";
 
 export const cvUrl =
-  "https://drive.google.com/file/d/1YJ1kheahQ57hBWmtP0AWJsrssn3wddjA/view?usp=sharing";
+  "https://drive.google.com/file/d/13PNlNC9qw-ilLvxgIbnsUwX8XpvdlqGo/view?usp=sharing";
 
 
 export const projects = [
@@ -44,13 +44,29 @@ export const projects = [
    iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg" , "/js.svg",],
     link: "https://ziadakramofficial.com/",
   },
-  {
-    id: 16,
-    title: "Miftaah Al Wadi",
-  des: "Landing page for Miftaah Al Wadi, a Saudi-based software company offering web development and digital solutions. I created the full UI/UX design myself, ensuring a clean, professional, and fully responsive presentation of the company's identity.",
-    img: "/Miftah.webp",
+
+    {
+    id: 155,
+    title: "OSTUDIO | Saudi Arabia",
+des: "WordPress site for a Saudi marketing agency. Translated Figma designs to pixel-perfect pages, integrated free plugins for dynamic content, and resolved hosting configuration issues.",    img: "/OSTUDIO.webp",
    iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg" , "/js.svg",],
-    link: "https://miftaahalwadi.net/",
+    link: "https://ostudio.sa/",
+  },
+    {
+    id: 156,
+    title: "OUT-MARK | Saudi Arabia",
+des: "WordPress site for Outmark's parent company in Saudi Arabia. Built 3 custom post type templates, added GSAP animations, connected dynamic content via free plugins, and configured domain routing to outmark.sa.",    img: "/OutMark.webp",
+   iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg" , "/js.svg",],
+    link: "https://outmark.sa/",
+  },
+
+      {
+    id: 17,
+    title: "Clear Real Estate",
+    des: "Real estate website implemented from a Figma design using WordPress, Elementor Pro, and custom fields for flexible content management. Fully responsive with a professional and user-friendly interface.",
+    img: "/Clear-img.webp",
+    iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg", "/js.svg"],
+    link: "https://cleardes.com/",
   },
     {
     id: 6,
@@ -61,15 +77,21 @@ export const projects = [
     link: "https://egypt-peace.org/",
   }
   ,  
-    {
-    id: 17,
-    title: "Clear Real Estate",
-    des: "Real estate website implemented from a Figma design using WordPress, Elementor Pro, and custom fields for flexible content management. Fully responsive with a professional and user-friendly interface.",
-    img: "/Clear-img.webp",
-    iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg", "/js.svg"],
-    link: "https://dev.rasans.com/clear/",
-  }
-  ,  
+  {
+    id: 166,
+    title: "Speed Package",
+des: "Subscription landing page for Ziad Akram's online coaching brand. I designed the full UI/UX myself, with geo-based pricing that switches to EGP or USD based on the visitor's IP location, and Kashier payment gateway integration.",    img: "/Speed.webp",
+   iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg" , "/js.svg",],
+    link: "https://speed.zafitworld.com/",
+  }, 
+  {
+    id: 16,
+    title: "Miftaah Al Wadi",
+  des: "Landing page for Miftaah Al Wadi, a Saudi-based software company offering web development and digital solutions. I created the full UI/UX design myself, ensuring a clean, professional, and fully responsive presentation of the company's identity.",
+    img: "/Miftah.webp",
+   iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg" , "/js.svg",],
+    link: "https://miftaahalwadi.net/",
+  }, 
   {
     id: 2,
     title: "Umino Fashion Site",
@@ -79,23 +101,14 @@ export const projects = [
     link: "https://umino-clothes.vercel.app/",
     sourceCode: "https://github.com/YahyaMohamedMahmoud/Umino",
   },
-  {
-    id: 3,
-    title: "Al Bakry For WoodWorking Machines",
-    des: "Developed a user-friendly woodworking tools website using WordPress and WooCommerce for seamless product management and sales. Integrated WPML to support multiple languages, ensuring accessibility for a diverse audience.",
-    img: "/AlBakry.webp",
-    iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg", "/js.svg"],
-    link: "https://woodworking.albakry.net/",
-  },
-  {
-    id: 7,
-    title: "Care Plus Dashboard",
-    des: "Care Plus Admin dashboard . Developed using React, REST API ,React Router, Axios, Redux Toolkit, and Tailwind CSS. Email and password authentication with JWT token. Email : uea_egypt@gmail.com && Password : egyptadmin123 ",
-    img: "/Care-plus.webp",
-    iconsList: ["/react.svg", "/js.svg", "/tailwind.svg", "/redux.svg"],
-    link: "https://elitessgroup.in/",
-    sourceCode: "https://github.com/YahyaMohamedMahmoud/Care_Plus",
-  },
+  // {
+  //   id: 3,
+  //   title: "Al Bakry For WoodWorking Machines",
+  //   des: "Developed a user-friendly woodworking tools website using WordPress and WooCommerce for seamless product management and sales. Integrated WPML to support multiple languages, ensuring accessibility for a diverse audience.",
+  //   img: "/AlBakry.webp",
+  //   iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg", "/js.svg"],
+  //   link: "https://woodworking.albakry.net/",
+  // },
   {
     id: 4,
     title: "Modern.Co Home Decor",
