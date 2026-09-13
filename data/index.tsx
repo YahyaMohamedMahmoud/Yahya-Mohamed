@@ -37,6 +37,14 @@ export const projects = [
     link: "https://ryzn-shop.com",
   },
   {
+    id: 16,
+    title: "Aseel Legal | Saudi Arabia",
+    des: "Developed a professional website for a Saudi legal firm, showcasing its legal services and making consultations more accessible. Integrated the Moyasar payment gateway API for seamless online payments, with a polished, responsive experience across devices.",
+    img: "/aseellegal.webp",
+    iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg", "/js.svg"],
+    link: "https://aseellegal.sa/",
+  },
+  {
     id: 15,
     title: "Coach Ziad Akram",
     des: "Online coaching website built with WordPress, featuring subscription-based packages. I designed the full UI/UX myself, with seamless checkout and Stripe payment integration, fully responsive design, and smooth user experience.",
@@ -82,14 +90,6 @@ des: "WordPress site for Outmark's parent company in Saudi Arabia. Built 3 custo
 des: "Subscription landing page for Ziad Akram's online coaching brand. I designed the full UI/UX myself, with geo-based pricing that switches to EGP or USD based on the visitor's IP location, and Kashier payment gateway integration.",    img: "/Speed.webp",
    iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg" , "/js.svg",],
     link: "https://speed.zafitworld.com/",
-  }, 
-  {
-    id: 16,
-    title: "Miftaah Al Wadi",
-  des: "Landing page for Miftaah Al Wadi, a Saudi-based software company offering web development and digital solutions. I created the full UI/UX design myself, ensuring a clean, professional, and fully responsive presentation of the company's identity.",
-    img: "/Miftah.webp",
-   iconsList: ["/Wordpress.png", "/php-svgrepo-com.svg" , "/js.svg",],
-    link: "https://miftaahalwadi.net/",
   }, 
   {
     id: 2,
