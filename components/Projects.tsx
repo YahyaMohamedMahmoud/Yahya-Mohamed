@@ -15,15 +15,17 @@ function Projects() {
           {projects.map((project) => (
             <MagicCard key={project.id}>
               <div className="flex flex-col items-center w-full h-full transform hover:shadow-xl transition-shadow duration-500">
-                <div className="relative w-full h-80 rounded-sm overflow-hidden">
+                <div className="relative flex items-center w-full h-80 rounded-sm overflow-hidden">
+                  <div className={project.img === "/aseellegal.webp" ? "relative w-full aspect-[2.13/1] max-h-full overflow-hidden" : "relative w-full h-full"}>
                   <Image
                     src={project.img}
                     alt={project.title}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                     priority
-                    className="rounded w-full object-contain transform hover:scale-105 transition-transform duration-500"
+                    className={`rounded w-full ${project.img === "/aseellegal.webp" ? "object-cover object-center" : "object-contain"} transform hover:scale-105 transition-transform duration-500`}
                   />
+                  </div>
                 </div>
                 <div className="pt-5">
                   <h2 className="text-2xl font-bold line-clamp-1 h-[32px]">
